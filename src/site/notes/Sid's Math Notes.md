@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/sid-s-math-notes/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/sid-s-math-notes/","tags":["gardenEntry"],"created":"","updated":""}
 ---
 
+## **Home**
 Here are all my Calc notes!
 
 ## By Chapter/Section
