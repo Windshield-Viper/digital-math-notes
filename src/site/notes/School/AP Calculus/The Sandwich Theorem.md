@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/school/ap-calculus/the-sandwich-theorem/"}
+{"dg-publish":true,"permalink":"/school/ap-calculus/the-sandwich-theorem/","created":"","updated":""}
 ---
 
 If $g(x) \leq f(x) \leq h(x)$ for all $x \neq c$ in some interval about $c$, and $\displaystyle\lim_{x \to c} g(x) = \lim_{x \to c} h(x) = L$:
