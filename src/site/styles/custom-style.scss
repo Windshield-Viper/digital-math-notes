@@ -5,9 +5,10 @@ body {
    ***/
     //  background-color: white;
       .content {
-    font-size: 18px;
-    max-width: 1200px;
-    margin: auto;
+    font-size: 20px;
+    mjx-math {
+  font-size: 130% !important;
+}
       }
     //  h1 {
     //   color: black;
