@@ -4,9 +4,11 @@ body {
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
     //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
+      .content {
+    font-size: 14px;
+    max-width: 1000px;
+    margin: auto;
+      }
     //  h1 {
     //   color: black;
     //  }
