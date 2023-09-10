@@ -13,3 +13,5 @@ Here are all my Calc notes!
 ## Concepts
 [[School/AP Calculus/Properties of Limits\|Properties of Limits]]  
 [[School/AP Calculus/The Sandwich Theorem\|The Sandwich Theorem]]
+
+*Created by Siddharth Gupta, 2023.*
