@@ -3,7 +3,7 @@
 ---
 
 # **Home**
-Here are all my Calc notes!
+Here are all my AP Calculus AB notes!
 
 ## By chapter/section
 ### Chapter 2
