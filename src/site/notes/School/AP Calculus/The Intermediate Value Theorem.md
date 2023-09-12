@@ -9,3 +9,11 @@ If we know that a function is continuous on an interval, we know that it passes 
 - This theorem is often helpful for proving that solutions exist on a given interval, and can be used in that way when you can prove the function changes from negative to positive within that interval.
 ## Diagram
 ![Images, Other Attachments/Pasted image 20230911221129.png|400](/img/user/Images,%20Other%20Attachments/Pasted%20image%2020230911221129.png)
+## Structuring an answer using the IVT
+Using the IVT on a problem involves using lots of words to structure an answer.
+### Example 1
+**Q:** Does a zero of $f(x) = x^2-4$ exist on the interval $[0,3]$?
+**A**: Since $f(x) = x^2-4$ is continuous on the given interval, the IVT applies. Because $f(0)=-4$ and $f(3)=5$, the IVT proves that $f(x)=0$ at some point on $[0,3]$.
+### Example 2
+**Q**: Show that $f(x)=x^3+x-6$ has a solution.
+**A**: Since $f(x)=x^3+x-6$ is continous on its entire domain, and $f(x)$ changes from negative to positive from $[0,10]$ , $f(x)$ must have a solution on $[0, 10]$.
