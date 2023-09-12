@@ -7,9 +7,9 @@ Here are all my AP Calculus AB notes!
 
 ## By chapter/section
 ### Chapter 2
-[[School/AP Calculus/2.1 - Intro to Limits\|2.1 - Intro to Limits]]  
-[[School/AP Calculus/2.2 - Limits Involving Infinity\|2.2 - Limits Involving Infinity]]
-[[School/AP Calculus/2.3 - Continuity\|2.3 - Continuity]]
+[[School/AP Calculus/Module 2/2.1 - Intro to Limits\|2.1 - Intro to Limits]]  
+[[School/AP Calculus/Module 2/2.2 - Limits Involving Infinity\|2.2 - Limits Involving Infinity]]
+[[School/AP Calculus/Module 2/2.3 - Continuity\|2.3 - Continuity]]
 
 ## Concepts
 [[School/AP Calculus/Properties of Limits\|Properties of Limits]]  
