@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"AP Calculus Notes/Properties of Limits.md","permalink":"/ap-calculus-notes/properties-of-limits/","created":"","updated":""}
 ---
 
-#calc/concept
+#calc/concept  
 If $L, M, c,$ and $k$ are real numbers and $\displaystyle\lim_{ x \to c } f(x) = L$ and $\displaystyle\lim_{ x \to c } g(x) = M$:
 - *Sum rule:* 
 	- $\displaystyle\lim_{ x \to c } (f(x)+g(x)) = L +M$
