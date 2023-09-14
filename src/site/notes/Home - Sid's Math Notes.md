@@ -22,8 +22,8 @@ Here are all my AP Calculus AB notes!
 ## Concepts
 | File                                                                 | introduced in |
 | -------------------------------------------------------------------- | ------------- |
-| [[School/AP Calculus/Basic derivatives\|Basic derivatives]]       | \-            |
 | [[School/AP Calculus/Properties of Limits\|Properties of Limits]] | section 2     |
+| [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]       | section 2     |
 
 { .block-language-dataview}
 
