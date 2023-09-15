@@ -3,7 +3,7 @@
 ---
 
 # **Home**
-Here are all my AP Calculus AB notes!
+Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific topic, or see below for all topics covered in the course so far.
 ## By module/section
 ### Section 2
 - [[School/AP Calculus/Module 2/2.1 - Intro to Limits\|2.1 - Intro to Limits]]
