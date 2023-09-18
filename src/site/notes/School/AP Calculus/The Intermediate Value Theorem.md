@@ -9,7 +9,7 @@ A function $y=f(x)$ that is continuous on a closed interval $[a,b]$ takes on eve
 If we know that a function is continuous on an interval, we know that it passes through every single value between any two points we choose on its graph.
 - This theorem is often helpful for proving that solutions exist on a given interval, and can be used in that way when you can prove the function changes from negative to positive within that interval.
 ## Diagram
-![Images, Other Attachments/Pasted image 20230911221129.png|400](/img/user/Images,%20Other%20Attachments/Pasted%20image%2020230911221129.png)
+![Other/Images, Other Attachments/Pasted image 20230911221129.png|400](/img/user/Other/Images,%20Other%20Attachments/Pasted%20image%2020230911221129.png)
 ## Structuring an answer using the IVT
 Using the IVT on a problem involves using lots of words to structure an answer.
 ### Example 1
