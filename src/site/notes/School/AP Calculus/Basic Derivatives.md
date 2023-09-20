@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AP Calculus Notes/Basic Derivatives.md","permalink":"/ap-calculus-notes/basic-derivatives/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"./Basic Derivatives.md","permalink":"//basic-derivatives/","created":"","updated":""}
 ---
 
 #calc/concept 
