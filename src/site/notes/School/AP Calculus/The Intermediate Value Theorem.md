@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AP Calculus Notes/The Intermediate Value Theorem.md","permalink":"/ap-calculus-notes/the-intermediate-value-theorem/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"./The Intermediate Value Theorem.md","permalink":"//the-intermediate-value-theorem/","created":"","updated":""}
 ---
 
 #calc/theorem 
