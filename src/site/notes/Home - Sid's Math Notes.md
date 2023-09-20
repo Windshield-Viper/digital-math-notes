@@ -3,7 +3,7 @@
 ---
 
 # **Home**
-Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific topic, or see below for all topics covered in the course so far.
+Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific topic, or see below for all topics covered in the course so far. Open the “Notes” folder to the left if you prefer viewing the notes in a file-explorer type of view.
 ## By module/section
 ### Section 2
 - [[School/AP Calculus/Module 2/2.2 - Limits Involving Infinity\|2.2 - Limits Involving Infinity]]
