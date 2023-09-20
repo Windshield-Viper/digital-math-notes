@@ -15,15 +15,15 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 ## Theorems
 | File                                                                                     | introduced in |
 | ---------------------------------------------------------------------------------------- | ------------- |
-| [[School/AP Calculus/The Intermediate Value Theorem\|The Intermediate Value Theorem]] | section 2     |
 | [[School/AP Calculus/The Sandwich Theorem\|The Sandwich Theorem]]                     | section 2     |
+| [[School/AP Calculus/The Intermediate Value Theorem\|The Intermediate Value Theorem]] | section 2     |
 
 { .block-language-dataview}
 ## Concepts
 | File                                                                 | introduced in |
 | -------------------------------------------------------------------- | ------------- |
-| [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]       | section 2     |
 | [[School/AP Calculus/Properties of Limits\|Properties of Limits]] | section 2     |
+| [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]       | section 2     |
 
 { .block-language-dataview}
 
