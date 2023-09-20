@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AP Calculus Notes/Properties of Limits.md","permalink":"/ap-calculus-notes/properties-of-limits/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"./Properties of Limits.md","permalink":"//properties-of-limits/","created":"","updated":""}
 ---
 
 #calc/concept  
