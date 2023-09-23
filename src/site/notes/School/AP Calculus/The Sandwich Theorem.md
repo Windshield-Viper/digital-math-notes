@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/The Sandwich Theorem.md","permalink":"/notes/the-sandwich-theorem/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"The Sandwich Theorem.md","permalink":"/the-sandwich-theorem/","created":"","updated":""}
 ---
 
 #calc/theorem 
