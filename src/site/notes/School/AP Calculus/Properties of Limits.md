@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/Properties of Limits.md","permalink":"/notes/properties-of-limits/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"Properties of Limits.md","permalink":"/properties-of-limits/","created":"","updated":""}
 ---
 
 #calc/concept  
