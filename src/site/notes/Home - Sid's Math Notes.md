@@ -14,13 +14,15 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 { .block-language-dataview}
 ### Section 3
 - [[School/AP Calculus/Module 3/3.1 - Alternate Definition of the Derivative\|3.1 - Alternate Definition of the Derivative]]
+- [[School/AP Calculus/Module 3/3.2 - Differentiability\|3.2 - Differentiability]]
 
 { .block-language-dataview}
 ## Theorems
-| File                                                                                     | introduced in |
-| ---------------------------------------------------------------------------------------- | ------------- |
-| [[School/AP Calculus/The Sandwich Theorem\|The Sandwich Theorem]]                     | section 2     |
-| [[School/AP Calculus/The Intermediate Value Theorem\|The Intermediate Value Theorem]] | section 2     |
+| File                                                                                                 | introduced in |
+| ---------------------------------------------------------------------------------------------------- | ------------- |
+| [[School/AP Calculus/The Sandwich Theorem\|The Sandwich Theorem]]                                 | section 2     |
+| [[School/AP Calculus/The Intermediate Value Theorem\|The Intermediate Value Theorem]]             | section 2     |
+| [[School/AP Calculus/Differentiability implies continuity\|Differentiability implies continuity]] | section 3     |
 
 { .block-language-dataview}
 ## Concepts
