@@ -23,6 +23,7 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 | [[School/AP Calculus/The Sandwich Theorem\|The Sandwich Theorem]]                                 | section 2     |
 | [[School/AP Calculus/The Intermediate Value Theorem\|The Intermediate Value Theorem]]             | section 2     |
 | [[School/AP Calculus/Differentiability implies continuity\|Differentiability implies continuity]] | section 3     |
+| [[School/AP Calculus/IVT For Derivatives\|IVT For Derivatives]]                                   | section 3     |
 
 { .block-language-dataview}
 ## Concepts
