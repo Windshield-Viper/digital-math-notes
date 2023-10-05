@@ -15,6 +15,7 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 ### Section 3
 - [[School/AP Calculus/Module 3/3.1 - Alternate Definition of the Derivative\|3.1 - Alternate Definition of the Derivative]]
 - [[School/AP Calculus/Module 3/3.2 - Differentiability\|3.2 - Differentiability]]
+- [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]]
 
 { .block-language-dataview}
 ## Theorems
@@ -27,11 +28,12 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 
 { .block-language-dataview}
 ## Concepts
-| File                                                                 | introduced in |
-| -------------------------------------------------------------------- | ------------- |
-| [[School/AP Calculus/Properties of Limits\|Properties of Limits]] | section 2     |
-| [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]       | section 2     |
-| [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]] | section 3     |
+| File                                                                                          | introduced in |
+| --------------------------------------------------------------------------------------------- | ------------- |
+| [[School/AP Calculus/Properties of Limits\|Properties of Limits]]                          | section 2     |
+| [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]                                | section 2     |
+| [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]]                          | section 3     |
+| [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]] | section 3     |
 
 { .block-language-dataview}
 
