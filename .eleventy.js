@@ -8,9 +8,8 @@ const { parse } = require("node-html-parser");
 const htmlMinifier = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-const myanalytics = require('@vercel/analytics');
- 
 
+const {inject} = require('@vercel/analytics');
 
 const { headerToId, namedHeadingsFilter } = require("./src/helpers/utils");
 const {
@@ -39,6 +38,7 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
+  inject();
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
