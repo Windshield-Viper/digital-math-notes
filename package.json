@@ -26,6 +26,7 @@
     "dependencies": {
         "@11ty/eleventy-img": "^3.0.0",
         "@sindresorhus/slugify": "^1.1.0",
+        "@vercel/analytics": "^1.1.1",
         "axios": "^1.2.2",
         "dotenv": "^16.0.3",
         "eleventy-plugin-gen-favicons": "^1.1.2",
