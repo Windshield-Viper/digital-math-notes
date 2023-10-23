@@ -21,6 +21,7 @@ $<div class="markdown-embed-title">
 
 ## Chain rule using Leibniz notation
 If $y=f(u)$ and $u=g(x)$, then $\displaystyle \frac{dy}{dx}=\frac{dy}{du} \cdot \frac{du}{dx}$ where $\frac{dy}{du}$ is evaluated at $u=g(x)$.
+- More on Leibniz notation [[School/AP Calculus/Leibniz Notation\|here]].
 
 </div></div>
 
