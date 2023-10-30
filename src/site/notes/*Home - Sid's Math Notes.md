@@ -19,6 +19,7 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 - [[School/AP Calculus/Module 3/3.4 - Velocity and Other Rates of Change\|3.4 - Velocity and Other Rates of Change]]
 - [[School/AP Calculus/Module 3/3.5 - Trig Derivatives\|3.5 - Trig Derivatives]]
 - [[School/AP Calculus/Module 3/3.6 - The Chain Rule\|3.6 - The Chain Rule]]
+- [[School/AP Calculus/Module 3/3.7 - Implicit Differentiation\|3.7 - Implicit Differentiation]]
 
 { .block-language-dataview}
 ## Theorems
@@ -26,9 +27,9 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 | ---------------------------------------------------------------------------------------------------- | ------------- |
 | [[School/AP Calculus/The Sandwich Theorem\|The Sandwich Theorem]]                                 | section 2     |
 | [[School/AP Calculus/The Intermediate Value Theorem\|The Intermediate Value Theorem]]             | section 2     |
+| [[School/AP Calculus/Module 3/3.6 - The Chain Rule\|3.6 - The Chain Rule]]                        | section 3     |
 | [[School/AP Calculus/IVT For Derivatives\|IVT For Derivatives]]                                   | section 3     |
 | [[School/AP Calculus/Differentiability implies continuity\|Differentiability implies continuity]] | section 3     |
-| [[School/AP Calculus/Module 3/3.6 - The Chain Rule\|3.6 - The Chain Rule]]                        | section 3     |
 
 { .block-language-dataview}
 ## Concepts
@@ -36,10 +37,10 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 | --------------------------------------------------------------------------------------------- | ------------- |
 | [[School/AP Calculus/Properties of Limits\|Properties of Limits]]                          | section 2     |
 | [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]                                | section 2     |
-| [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]] | section 3     |
-| [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]]                          | section 3     |
 | [[School/AP Calculus/Module 3/3.5 - Trig Derivatives\|3.5 - Trig Derivatives]]             | section 3     |
+| [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]] | section 3     |
 | [[School/AP Calculus/Leibniz Notation\|Leibniz Notation]]                                  | section 3     |
+| [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]]                          | section 3     |
 
 { .block-language-dataview}
 
