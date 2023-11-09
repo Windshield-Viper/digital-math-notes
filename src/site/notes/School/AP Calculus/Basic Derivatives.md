@@ -3,7 +3,7 @@
 ---
 
 #calc/concept 
-## Definition of a derivative
+## Definition of the derivative
 The derivative of the function $f$ with respect to the variable $x$ is the function $f'$ whose value at $x$ is $\displaystyle f'(x)= \lim_{ h \to 0 } \frac{f(x+h)-f(x)}{h}$ 
 ## Slope of a curve at a point
 - The slope of the curve $y=f(x)$ at the point $(a, f(a))$ is $\displaystyle m= \lim_{ h \to 0 } \frac{f(a+h)-f(a)}{h}$  
