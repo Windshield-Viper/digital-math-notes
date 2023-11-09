@@ -4,7 +4,7 @@
 
 # **Home**
 Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific topic, or see below for all topics covered in the course so far.
-## Some important stuff
+## Selected important stuff
 [[School/AP Calculus/Module 3/Unit 3 Formula Sheet\|Unit 3 Formula Sheet]]
 ## By module/section
 ### Section 2
