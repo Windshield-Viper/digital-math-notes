@@ -1,7 +1,5 @@
 ---
 {"dg-publish":true,"permalink":"/home-sid-s-math-notes/","tags":["gardenEntry"],"created":"","updated":""}
-scripts: >
-  <script data-goatcounter="https://windshield-viper.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 ---
 
 # **Home**
