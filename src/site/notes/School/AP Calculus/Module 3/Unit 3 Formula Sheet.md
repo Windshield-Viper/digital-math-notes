@@ -12,85 +12,20 @@ $y=f(x)$ is differentiable on $[a,b]$ if it has a derivative at every interior p
 ### [[School/AP Calculus/Module 3/3.2 - Differentiability#Types of non-differentiability\|Types of non-differentiability]]
 ## New stuff
 ### Basic derivative rules
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/module-3/3-3-basic-derivative-rules/#power-rule-for-positive-and-negative-integer-powers-of-x" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-$<div class="markdown-embed-title">
-
-# 3.3 - Basic Derivative Rules
-
-</div>
-
-
-## Power rule for Positive and Negative Integer Powers of $x$
-If $n$ is a positive integer, then $\displaystyle\frac{d}{dx}x^n=nx^{n-1}$. This works for negative integer powers too.
-
-</div></div>
-  
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/module-3/3-3-basic-derivative-rules/#constant-multiple-rule" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-$<div class="markdown-embed-title">
-
-# 3.3 - Basic Derivative Rules
-
-</div>
-
-
-## Constant Multiple Rule
+#### Derivative of a Constant Function
+If $f$ is the function with constant value $c$, then $\displaystyle\frac{df}{dx}=\frac{d}{dx}(c)=0$.
+#### Power rule for Positive and Negative Integer Powers of $x$
+If $n$ is a positive integer, then $\displaystyle\frac{d}{dx}x^n=nx^{n-1}$ (this works for negative integer powers too)
+#### Constant Multiple Rule
 If $u$ is a differentiable function of $x$ and $c$ is a constant, then $\displaystyle\frac{d}{dx}(cu)=c\frac{du}{dx}$.
-- So derivative of $3x^4$ is $3$ times the derivative of $x^4$.
-
-</div></div>
-  
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/module-3/3-3-basic-derivative-rules/#sum-and-difference-rule" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-$<div class="markdown-embed-title">
-
-# 3.3 - Basic Derivative Rules
-
-</div>
-
-
-## Sum and Difference Rule
-If $u$ and $v$ are differentiable functions of $x$, then their sum and difference are differentiable at every point where $u$ and $v$ are differentiable. At such points, $\displaystyle\frac{d}{dx}(u\pm v)=\frac{du}{dx}\pm \frac{dv}{dx}$
-- Basically, you can separately take derivatives of different terms of the polynomial.
-
-</div></div>
-  
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/module-3/3-3-basic-derivative-rules/#product-rule" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-$<div class="markdown-embed-title">
-
-# 3.3 - Basic Derivative Rules
-
-</div>
-
-
-## Product Rule
-The product of two differentiable functions $u$ and $v$ is differentiable, and $\displaystyle\frac{d}{dx}(uv)=u\frac{dv}{dx}+v\frac{du}{dx}$.
-- In words, (first function)(derivative of second function) $+$ (second function)(derivative of first function).
-
-</div></div>
-  
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/module-3/3-3-basic-derivative-rules/#quotient-rule" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-$<div class="markdown-embed-title">
-
-# 3.3 - Basic Derivative Rules
-
-</div>
-
-
-## Quotient Rule
-At a point where $v\neq 0$, the quotient $y=\frac{u}{v}$ of two differentiable functions is differentiable, and $\displaystyle\frac{d}{dx}\left( \frac{u}{v} \right)=\frac{v\frac{du}{dx}-u\frac{dv}{dx}}{v^2}$.
+- For example, the derivative of $3x^4$ is $3$ times the derivative of $x^4$.
+#### Sum and Difference Rule
+$\displaystyle\frac{d}{dx}(u\pm v)=\frac{du}{dx}\pm \frac{dv}{dx}$
+#### Product Rule
+$\displaystyle\frac{d}{dx}(uv)=u\frac{dv}{dx}+v\frac{du}{dx}$.
+#### Quotient Rule
+At a point where $v\neq 0$, $\displaystyle\frac{d}{dx}\left( \frac{u}{v} \right)=\frac{v\frac{du}{dx}-u\frac{dv}{dx}}{v^2}$.
 - If it helps, use the mnemonic “Low D High - High D Low”.
-
-</div></div>
-
 ### Economics formulas
 - **Average Cost:** $\displaystyle\frac{C(x)}{x}$
 - **Average Increase in Cost:** $\displaystyle\frac{C(x+h)-C(x)}{h}$
