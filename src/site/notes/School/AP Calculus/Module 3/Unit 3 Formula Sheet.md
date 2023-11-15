@@ -79,8 +79,8 @@ You can just derive these, so don’t put too much effort into memorizing them.
 #### Derivative of $e^x$
 - The derivative of $e^x$ is simply $e^x$.
 #### Derivative of any general $e^u$
-$\displaystyle\frac{d}{dx}(e^u)=e^x\left( \frac{du}{dx} \right)$
-#### Derivative of any general $a^x$
+$\displaystyle\frac{d}{dx}(e^u)=e^u\left( \frac{du}{dx} \right)$
+#### Derivative of any general $a^u$
 $\displaystyle\frac{d}{dx}(a^u)=a^u\ln a\left( \frac{du}{dx} \right)$
 #### Derivative of $\ln x$
 - Simply $\displaystyle\frac{1}{x}$.
