@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-introduced-in: section 4
+{"dg-publish":true,"dg-path":"The Extreme Value Theorem and Local Extreme Value Theorem.md","permalink":"/the-extreme-value-theorem-and-local-extreme-value-theorem/","created":"","updated":""}
 ---
+
 #calc/theorem 
 
 Very similar to the [[School/AP Calculus/The Intermediate Value Theorem\|Intermediate Value Theorem]].
