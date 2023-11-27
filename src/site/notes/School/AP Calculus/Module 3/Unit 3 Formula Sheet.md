@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Module 3/Unit 3 Formula Sheet.md","permalink":"/module-3/unit-3-formula-sheet/","created":"","updated":""}
+dg-publish: true
+introduced-in: section 3
 ---
-
 ## Unit 2 Review
 ### [[School/AP Calculus/Basic Derivatives\|Definition of the derivative]]
 $\displaystyle f'(x)=\lim_{ n \to 0 } \frac{f(x+h)-f(x)}{h}$
