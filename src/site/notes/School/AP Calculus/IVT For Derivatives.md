@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"IVT For Derivatives.md","permalink":"/ivt-for-derivatives/","created":"","updated":""}
+dg-publish: true
+introduced-in: section 3
 ---
-
 #calc/theorem 
 If $a$ and $b$ are any two points in an interval  on which $f$ is differentiable, then $f'$ takes on every value between $f'(a)$ and $f'(b)$.
 ## Stated basically
