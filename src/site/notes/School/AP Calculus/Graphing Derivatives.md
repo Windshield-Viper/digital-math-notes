@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Graphing Derivatives.md","permalink":"/graphing-derivatives/","created":"","updated":""}
+dg-publish: true
+introduced-in: section 3
 ---
-
 #calc/concept 
 ## Sign change in derivatives
 - If $f'$ changes from $+$ to $-$ at $x=a$, the function $f$ has a relative max at $x=a$.
