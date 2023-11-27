@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-introduced-in: section 2
+{"dg-publish":true,"dg-path":"Properties of Limits.md","permalink":"/properties-of-limits/","created":"","updated":""}
 ---
+
 #calc/concept  
 If $L, M, c,$ and $k$ are real numbers and $\displaystyle\lim_{ x \to c } f(x) = L$ and $\displaystyle\lim_{ x \to c } g(x) = M$:
 - *Sum rule:* 
