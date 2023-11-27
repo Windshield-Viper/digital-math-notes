@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-introduced-in: section 3
+{"dg-publish":true,"dg-path":"Leibniz Notation.md","permalink":"/leibniz-notation/","created":"","updated":""}
 ---
+
 #calc/concept  
 [Wikipedia](https://en.wikipedia.org/wiki/Leibniz%27s_notation)
 
