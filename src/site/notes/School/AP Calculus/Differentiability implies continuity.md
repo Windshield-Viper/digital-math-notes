@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-introduced-in: section 3
+{"dg-publish":true,"dg-path":"Differentiability implies continuity.md","permalink":"/differentiability-implies-continuity/","created":"","updated":""}
 ---
+
 #calc/theorem 
 AKA the continuity theorem? Not sure. 
 
