@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-introduced-in: section 2
+{"dg-publish":true,"dg-path":"Basic Derivatives.md","permalink":"/basic-derivatives/","created":"","updated":""}
 ---
+
 #calc/concept 
 ## Definition of the derivative
 The derivative of the function $f$ with respect to the variable $x$ is the function $f'$ whose value at $x$ is $\displaystyle f'(x)= \lim_{ h \to 0 } \frac{f(x+h)-f(x)}{h}$ 
