@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-introduced-in: section 2
+{"dg-publish":true,"dg-path":"The Sandwich Theorem.md","permalink":"/the-sandwich-theorem/","created":"","updated":""}
 ---
+
 #calc/theorem 
 If $g(x) \leq f(x) \leq h(x)$ for all $x \neq c$ in some interval about $c$, and $\displaystyle\lim_{x \to c} g(x) = \lim_{x \to c} h(x) = L$:
 
