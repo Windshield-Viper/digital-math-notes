@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"The Intermediate Value Theorem.md","permalink":"/the-intermediate-value-theorem/","created":"","updated":""}
+dg-publish: true
+introduced-in: section 2
 ---
-
 #calc/theorem 
 A function $y=f(x)$ that is continuous on a closed interval $[a,b]$ takes on every value between $f(a)$ and $f(b)$. In other words, if $y_{0}$ is between $f(a)$ and $f(b)$, then $y_{0}=f(c)$ for some $c$ in $[a,b]$. 
 
