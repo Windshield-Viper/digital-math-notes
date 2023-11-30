@@ -30,6 +30,7 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 ### Module 4
 - [[School/AP Calculus/Module 4/4.1 - Extreme Values of Functions\|4.1 - Extreme Values of Functions]]
 - [[School/AP Calculus/Module 4/4.2 - The Mean Value Theorem and Antiderivatives\|4.2 - The Mean Value Theorem and Antiderivatives]]
+- [[School/AP Calculus/Module 4/4.3 - The First and Second Derivative Tests\|4.3 - The First and Second Derivative Tests]]
 
 { .block-language-dataview}
 ## Theorems
@@ -45,14 +46,15 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 
 { .block-language-dataview}
 ## Concepts
-| File                                                                                          | introduced in |
-| --------------------------------------------------------------------------------------------- | ------------- |
-| [[School/AP Calculus/Properties of Limits\|Properties of Limits]]                          | section 2     |
-| [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]                                | section 2     |
-| [[School/AP Calculus/Module 3/3.5 - Trig Derivatives\|3.5 - Trig Derivatives]]             | section 3     |
-| [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]]                          | section 3     |
-| [[School/AP Calculus/Leibniz Notation\|Leibniz Notation]]                                  | section 3     |
-| [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]] | section 3     |
+| File                                                                                                                        | introduced in |
+| --------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| [[School/AP Calculus/Properties of Limits\|Properties of Limits]]                                                        | section 2     |
+| [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]                                                              | section 2     |
+| [[School/AP Calculus/Module 3/3.5 - Trig Derivatives\|3.5 - Trig Derivatives]]                                           | section 3     |
+| [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]]                                                        | section 3     |
+| [[School/AP Calculus/Leibniz Notation\|Leibniz Notation]]                                                                | section 3     |
+| [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]]                               | section 3     |
+| [[School/AP Calculus/Module 4/4.3 - The First and Second Derivative Tests\|4.3 - The First and Second Derivative Tests]] | section 4     |
 
 { .block-language-dataview}
 
