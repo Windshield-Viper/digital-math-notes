@@ -31,6 +31,8 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 - [[School/AP Calculus/Module 4/4.1 - Extreme Values of Functions\|4.1 - Extreme Values of Functions]]
 - [[School/AP Calculus/Module 4/4.2 - The Mean Value Theorem and Antiderivatives\|4.2 - The Mean Value Theorem and Antiderivatives]]
 - [[School/AP Calculus/Module 4/4.3 - The First and Second Derivative Tests\|4.3 - The First and Second Derivative Tests]]
+- [[School/AP Calculus/Module 4/4.4 - Optimization\|4.4 - Optimization]]
+- [[School/AP Calculus/Module 4/4.6 - Related Rates\|4.6 - Related Rates]]
 
 { .block-language-dataview}
 ## Theorems
@@ -55,6 +57,7 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 | [[School/AP Calculus/Leibniz Notation\|Leibniz Notation]]                                                                | section 3     |
 | [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]]                               | section 3     |
 | [[School/AP Calculus/Module 4/4.3 - The First and Second Derivative Tests\|4.3 - The First and Second Derivative Tests]] | section 4     |
+| [[School/AP Calculus/Module 4/4.4 - Optimization\|4.4 - Optimization]]                                                   | section 4     |
 
 { .block-language-dataview}
 
