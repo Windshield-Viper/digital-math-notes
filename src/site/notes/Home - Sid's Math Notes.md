@@ -41,8 +41,8 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 | [[School/AP Calculus/The Sandwich Theorem\|The Sandwich Theorem]]                                                                           | section 2     |
 | [[School/AP Calculus/The Intermediate Value Theorem\|The Intermediate Value Theorem]]                                                       | section 2     |
 | [[School/AP Calculus/IVT For Derivatives\|IVT For Derivatives]]                                                                             | section 3     |
-| [[School/AP Calculus/Differentiability implies continuity\|Differentiability implies continuity]]                                           | section 3     |
 | [[School/AP Calculus/Module 3/3.6 - The Chain Rule\|3.6 - The Chain Rule]]                                                                  | section 3     |
+| [[School/AP Calculus/Differentiability implies continuity\|Differentiability implies continuity]]                                           | section 3     |
 | [[School/AP Calculus/The Extreme Value Theorem and Local Extreme Value Theorem\|The Extreme Value Theorem and Local Extreme Value Theorem]] | section 4     |
 | [[School/AP Calculus/Module 4/4.2 - The Mean Value Theorem and Antiderivatives\|4.2 - The Mean Value Theorem and Antiderivatives]]          | section 4     |
 
@@ -53,9 +53,9 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 | [[School/AP Calculus/Properties of Limits\|Properties of Limits]]                                                        | section 2     |
 | [[School/AP Calculus/Basic Derivatives\|Basic Derivatives]]                                                              | section 2     |
 | [[School/AP Calculus/Module 3/3.5 - Trig Derivatives\|3.5 - Trig Derivatives]]                                           | section 3     |
-| [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]]                                                        | section 3     |
-| [[School/AP Calculus/Leibniz Notation\|Leibniz Notation]]                                                                | section 3     |
 | [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]]                               | section 3     |
+| [[School/AP Calculus/Leibniz Notation\|Leibniz Notation]]                                                                | section 3     |
+| [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]]                                                        | section 3     |
 | [[School/AP Calculus/Module 4/4.3 - The First and Second Derivative Tests\|4.3 - The First and Second Derivative Tests]] | section 4     |
 | [[School/AP Calculus/Module 4/4.4 - Optimization\|4.4 - Optimization]]                                                   | section 4     |
 
