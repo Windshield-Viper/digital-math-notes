@@ -56,8 +56,8 @@ Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific 
 | [[School/AP Calculus/Module 3/3.3 - Basic Derivative Rules\|3.3 - Basic Derivative Rules]]                               | section 3     |
 | [[School/AP Calculus/Leibniz Notation\|Leibniz Notation]]                                                                | section 3     |
 | [[School/AP Calculus/Graphing Derivatives\|Graphing Derivatives]]                                                        | section 3     |
-| [[School/AP Calculus/Module 4/4.3 - The First and Second Derivative Tests\|4.3 - The First and Second Derivative Tests]] | section 4     |
 | [[School/AP Calculus/Module 4/4.4 - Optimization\|4.4 - Optimization]]                                                   | section 4     |
+| [[School/AP Calculus/Module 4/4.3 - The First and Second Derivative Tests\|4.3 - The First and Second Derivative Tests]] | section 4     |
 
 { .block-language-dataview}
 
