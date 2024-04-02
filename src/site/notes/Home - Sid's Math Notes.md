@@ -50,10 +50,8 @@ By module/section
 
 { .block-language-dataview}
 ### Module 7
-- [[School/AP Calculus/Module 2/2.1 - Intro to Limits\|2.1 - Intro to Limits]]
-- [[School/AP Calculus/Module 2/2.2 - Limits Involving Infinity\|2.2 - Limits Involving Infinity]]
-- [[School/AP Calculus/Module 2/2.3 - Continuity\|2.3 - Continuity]]
-- [[School/AP Calculus/Module 2/2.4 - Rates of Change and Tangent Lines\|2.4 - Rates of Change and Tangent Lines]]
+- [[School/AP Calculus/Module 7/7.2 - Areas in the Plane\|7.2 - Areas in the Plane]]
+- [[School/AP Calculus/Module 7/7.3 - Volumes\|7.3 - Volumes]]
 
 { .block-language-dataview}
 ## Theorems
