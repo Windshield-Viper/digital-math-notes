@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Graphing Derivatives.md","permalink":"/graphing-derivatives/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"Graphing Derivatives.md","permalink":"/graphing-derivatives/"}
 ---
 
 #calc/concept 
