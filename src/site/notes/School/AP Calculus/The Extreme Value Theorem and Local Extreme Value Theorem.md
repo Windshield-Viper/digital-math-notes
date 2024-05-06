@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"The Extreme Value Theorem and Local Extreme Value Theorem.md","permalink":"/the-extreme-value-theorem-and-local-extreme-value-theorem/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"The Extreme Value Theorem and Local Extreme Value Theorem.md","permalink":"/the-extreme-value-theorem-and-local-extreme-value-theorem/"}
 ---
 
 #calc/theorem 
