@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Basic Derivatives.md","permalink":"/basic-derivatives/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"Basic Derivatives.md","permalink":"/basic-derivatives/"}
 ---
 
 #calc/concept 
