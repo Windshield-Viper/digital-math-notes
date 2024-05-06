@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"U-Substitution for Integration.md","permalink":"/u-substitution-for-integration/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"U-Substitution for Integration.md","permalink":"/u-substitution-for-integration/"}
 ---
 
 #calc/concept 
