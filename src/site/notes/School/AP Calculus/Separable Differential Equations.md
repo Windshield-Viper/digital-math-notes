@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Separable Differential Equations.md","permalink":"/separable-differential-equations/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"Separable Differential Equations.md","permalink":"/separable-differential-equations/"}
 ---
 
 #calc/concept 
