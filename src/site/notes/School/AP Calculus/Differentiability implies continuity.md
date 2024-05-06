@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Differentiability implies continuity.md","permalink":"/differentiability-implies-continuity/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"Differentiability implies continuity.md","permalink":"/differentiability-implies-continuity/"}
 ---
 
 #calc/theorem 
