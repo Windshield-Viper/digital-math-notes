@@ -1,2 +1,9 @@
-# Sid's Math Notes
-My math notes from AP Calc AB. I was taking notes in class one day when my friends asked me to share a link with them, so I made this website. Created with the [Obsidian Digital Garden](https://dg-docs.ole.dev/) plugin.
+# Digital Obsidian Garden
+This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
+See the README in the plugin repo for information on how to set it up.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden)
+
+---
+## Docs
+Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
