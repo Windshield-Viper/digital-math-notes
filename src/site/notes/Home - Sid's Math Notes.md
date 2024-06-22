@@ -3,7 +3,7 @@
 ---
 
 ## **Home**
-Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific topic, or see below for all topics covered in the course so far.
+Here are all my AP Calculus AB notes! Use cmd/ctrl + K to search for a specific topic, or see below for all topics covered in Mr. Schachter’s class.
 
 ## Selected important stuff
 [[School/2023-2024/AP Calculus/Module 3/Unit 3 Formula Sheet - MOST DERIVATIVE STUFF\|Unit 3 Formula Sheet - MOST DERIVATIVE STUFF]]
