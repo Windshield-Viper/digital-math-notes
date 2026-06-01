@@ -29,6 +29,68 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
   return metadata;
 }
 
+function getAnchorLink(filePath, linkTitle) {
+  const {attributes, innerHTML} = getAnchorAttributes(filePath, linkTitle);
+  return `<a ${Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(" ")}>${innerHTML}</a>`;
+}
+
+function getAnchorAttributes(filePath, linkTitle) {
+  let fileName = filePath.replaceAll("&amp;", "&");
+  let header = "";
+  let headerLinkPath = "";
+  if (filePath.includes("#")) {
+    [fileName, header] = filePath.split("#");
+    headerLinkPath = `#${headerToId(header)}`;
+  }
+
+  let noteIcon = process.env.NOTE_ICON_DEFAULT;
+  const title = linkTitle ? linkTitle : fileName;
+  let permalink = `/notes/${slugify(filePath)}`;
+  let deadLink = false;
+  try {
+    const startPath = "./src/site/notes/";
+    const fullPath = fileName.endsWith(".md")
+      ? `${startPath}${fileName}`
+      : `${startPath}${fileName}.md`;
+    const file = fs.readFileSync(fullPath, "utf8");
+    const frontMatter = matter(file);
+    if (frontMatter.data.permalink) {
+      permalink = frontMatter.data.permalink;
+    }
+    if (
+      frontMatter.data.tags &&
+      frontMatter.data.tags.indexOf("gardenEntry") != -1
+    ) {
+      permalink = "/";
+    }
+    if (frontMatter.data.noteIcon) {
+      noteIcon = frontMatter.data.noteIcon;
+    }
+  } catch {
+    deadLink = true;
+  }
+
+  if (deadLink) {
+    return {
+      attributes: {
+        "class": "internal-link is-unresolved",
+        "href": "/404",
+        "target": "",
+      },
+      innerHTML: title,
+    }
+  }
+  return {
+    attributes: {
+      "class": "internal-link",
+      "target": "",
+      "data-note-icon": noteIcon,
+      "href": `${permalink}${headerLinkPath}`,
+    },
+    innerHTML: title,
+  }
+}
+
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
@@ -212,7 +274,6 @@ module.exports = function (eleventyConfig) {
     return date && date.toISOString();
   });
 
-
   eleventyConfig.addFilter("link", function (str) {
     return (
       str &&
@@ -223,46 +284,7 @@ module.exports = function (eleventyConfig) {
         }
         const [fileLink, linkTitle] = p1.split("|");
 
-        let fileName = fileLink.replaceAll("&amp;", "&");
-        let header = "";
-        let headerLinkPath = "";
-        if (fileLink.includes("#")) {
-          [fileName, header] = fileLink.split("#");
-          headerLinkPath = `#${headerToId(header)}`;
-        }
-
-        let permalink = `/notes/${slugify(fileName)}`;
-        let noteIcon = process.env.NOTE_ICON_DEFAULT;
-        const title = linkTitle ? linkTitle : fileName;
-        let deadLink = false;
-
-        try {
-          const startPath = "./src/site/notes/";
-          const fullPath = fileName.endsWith(".md")
-            ? `${startPath}${fileName}`
-            : `${startPath}${fileName}.md`;
-          const file = fs.readFileSync(fullPath, "utf8");
-          const frontMatter = matter(file);
-          if (frontMatter.data.permalink) {
-            permalink = frontMatter.data.permalink;
-          }
-          if (
-            frontMatter.data.tags &&
-            frontMatter.data.tags.indexOf("gardenEntry") != -1
-          ) {
-            permalink = "/";
-          }
-          if (frontMatter.data.noteIcon) {
-            noteIcon = frontMatter.data.noteIcon;
-          }
-        } catch {
-          deadLink = true;
-        }
-
-        if (deadLink) {
-          return `<a class="internal-link is-unresolved" href="/404">${title}</a>`;
-        }
-        return `<a class="internal-link" data-note-icon="${noteIcon}" href="${permalink}${headerLinkPath}">${title}</a>`;
+        return getAnchorLink(fileLink, linkTitle);
       })
     );
   });
@@ -300,6 +322,21 @@ module.exports = function (eleventyConfig) {
         return value.trim();
       })
     );
+  });
+
+  eleventyConfig.addTransform("dataview-js-links", function (str) {
+    const parsed = parse(str);
+    for (const dataViewJsLink of parsed.querySelectorAll("a[data-href].internal-link")) {
+      const notePath = dataViewJsLink.getAttribute("data-href");
+      const title = dataViewJsLink.innerHTML;
+      const {attributes, innerHTML} = getAnchorAttributes(notePath, title);
+      for (const key in attributes) {
+        dataViewJsLink.setAttribute(key, attributes[key]);
+      }
+      dataViewJsLink.innerHTML = innerHTML;
+    }
+
+    return str && parsed.innerHTML;
   });
 
   eleventyConfig.addTransform("callout-block", function (str) {
@@ -344,13 +381,26 @@ module.exports = function (eleventyConfig) {
           }
         );
 
+        /* Hacky fix for callouts with only a title:
+        This will ensure callout-content isn't produced if
+        the callout only has a title, like this:
+        ```md
+        > [!info] i only have a title
+        ```
+        Not sure why content has a random <p> tag in it,
+        */
+        if (content === "\n<p>\n") {
+          content = "";
+        }
+        let contentDiv = content ? `\n<div class="callout-content">${content}</div>` : "";
+
         blockquote.tagName = "div";
         blockquote.classList.add("callout");
         blockquote.classList.add(isCollapsable ? "is-collapsible" : "");
         blockquote.classList.add(isCollapsed ? "is-collapsed" : "");
         blockquote.setAttribute("data-callout", calloutType.toLowerCase());
         calloutMetaData && blockquote.setAttribute("data-callout-metadata", calloutMetaData);
-        blockquote.innerHTML = `${titleDiv}\n<div class="callout-content">${content}</div>`;
+        blockquote.innerHTML = `${titleDiv}${contentDiv}`;
       }
     };
 
@@ -395,6 +445,9 @@ module.exports = function (eleventyConfig) {
 
 
   eleventyConfig.addTransform("picture", function (str) {
+    if(process.env.USE_FULL_RESOLUTION_IMAGES === "true"){
+      return str;
+    }
     const parsed = parse(str);
     for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
       const src = imageTag.getAttribute("src");
@@ -450,7 +503,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addTransform("htmlMinifier", (content, outputPath) => {
     if (
-      process.env.NODE_ENV === "production" &&
+      (process.env.NODE_ENV === "production" || process.env.ELEVENTY_ENV === "prod") &&
       outputPath &&
       outputPath.endsWith(".html")
     ) {
@@ -458,6 +511,8 @@ module.exports = function (eleventyConfig) {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
+        conservativeCollapse: true,
+        preserveLineBreaks: true,
         minifyCSS: true,
         minifyJS: true,
         keepClosingSlash: true,
@@ -477,9 +532,13 @@ module.exports = function (eleventyConfig) {
 
 
   eleventyConfig.addFilter("dateToZulu", function (date) {
-    if (!date) return "";
-    return new Date(date).toISOString("dd-MM-yyyyTHH:mm:ssZ");
+    try {
+      return new Date(date).toISOString("dd-MM-yyyyTHH:mm:ssZ");
+    } catch {
+      return "";
+    }
   });
+  
   eleventyConfig.addFilter("jsonify", function (variable) {
     return JSON.stringify(variable) || '""';
   });
