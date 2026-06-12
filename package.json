@@ -35,7 +35,7 @@
         "gray-matter": "^4.0.3",
         "markdown-it": "^14.0.0",
         "markdown-it-anchor": "^8.6.7",
-        "markdown-it-attrs": "^4.1.6",
+        "markdown-it-attrs": "^5.0.0",
         "markdown-it-footnote": "^3.0.3",
         "markdown-it-mark": "^3.0.1",
         "markdown-it-mathjax3": "^4.3.1",
